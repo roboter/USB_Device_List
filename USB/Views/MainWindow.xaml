@@ -5,14 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
 		xmlns:viewModels="clr-namespace:USB.ViewModels"
-        xmlns:converters="clr-namespace:USB.Converters"
         Title="USB device list"
         WindowStartupLocation="CenterScreen"
         Height="459"
         Width="795">
     <Window.Resources>
         <viewModels:MainWindowViewModel x:Key="Windows1ViewModel" />
-        <converters:IsBiggerThanConverter x:Key="IsBiggerThanConverter" />
+        
     </Window.Resources>
     <Grid DataContext="{StaticResource Windows1ViewModel}">
        
